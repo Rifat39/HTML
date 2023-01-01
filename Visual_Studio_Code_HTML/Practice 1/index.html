@@ -1,0 +1,159 @@
+<!--
+Front End Developer
+--------------------------------
+
+1.HTML >>>> Markup Language (Website Structure building block)
+
+2.CSS >>>> Cascading Stylesheet (Website Design)
+
+3.Java Script (js) >>>> Programing Language (functional activity)
+
+4.Front End Frameworks(or Front End Library) >>><<< (Frameworks come Lots of code that we can reuse in our websites so they help us get the job done faster also build application faster)
+Bootstrap , **React , Angular , Vue  
+
+Actually is not a framework actually React is a Library
+
+5.Version Control System
+i)Git **
+ii)Subversion(SVN)
+iii)Mercurial
+
+-->
+
+<!--
+    How the web Works ?
+
+        URL -> Uniform Resource Locator
+        Basically it's a way to locate a resource on the internet
+        Resources
+        ---------
+        Web Pages (HTML documents)
+        Images
+        Video Files
+        Fonts and so on
+        >>> Basically type url and press enter on the browser what happened now ?
+        --Two pice evolved here one the browser (also called the client ) and number two is the Computer (or computers) host our target website 
+        we refer this as a web servers or servers.
+
+       -- This is the called client server model.The client request the service and the server provide the service.(client to server message)
+        And this message is formatted based on a protocol called http(hyper text transfer protocol)
+        
+        HTTP is a language that clients and severs use to talk to each other, and it's a plain textual language to 
+        communicating over internet
+
+        >>HTTPS = HTTP + Encryption (Hypertext Transfer Protocol Secure)
+
+! enter then we will get html boilerplate on VS_Code
+-->
+<!--Use prettier extension to your VS Code editor for auto code formatting Live Server  and  VSCode-icons to show different icon on file-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--viewport means visual area of the webpage-->
+    <!--CSS Using-->
+    <style>
+      img {
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+      p {
+        color: brown;
+        font-size: large;
+        font-style: italic;
+      }
+      .User {
+        font-weight: bold;
+        color: rgb(131, 194, 37);
+      }
+      a {
+        color: orange;
+        font-weight: bolder;
+      }
+      .URL {
+        color: darkblue;
+      }
+    </style>
+    <link rel="icon" href="icons8-linkedin-90.png" type="favicon" />
+    <title>Html and CSS</title>
+  </head>
+  <body>
+    <!--Every page should have single h1 element otherwise browser is get confuse-->
+    <h1>Heading 1</h1>
+    <p>HELLO WORLD</p>
+    <img src="Tom Cruise.jpg" alt="Tom Cruse" />
+    <br />
+    <a href="https://cyber-range.mist.ac.bd/" target="_main"
+      >Cyber Range mist</a
+    >
+    <br />
+    <!--class define-->
+    <p class="User">This is Rifat</p>
+    <p class="User">
+      আমার নাম রিফাত , <em>কেমন আছ তুমি আমি ভাল আছি ধন্যবাদ</em>
+    </p>
+    <!--This is support because of UTF-8 which represent all kinds of international language character but ASCII only support English language character -->
+    <br />
+    <a href="https://validator.w3.org/" target="_blank"
+      >HTML validation check</a
+    >
+    <br />
+    <a href="https://jigsaw.w3.org/css-validator/" target="_main"
+      >CSS validation check</a
+    >
+    <br /><br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/BqlMwyABHOE"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <!--html entities-->
+    <br />
+    <a
+      href="https://www.w3schools.com/html/html_entities.asp"
+      class="URL"
+      target="_blank"
+      >HTML entities</a
+    >
+    <p>&lt;html&gt; &copy;</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae at
+      laboriosam ex voluptate voluptatem optio!&nbsp;Quidem molestias provident
+      odit, fugit inventore doloremque temporibus nsint mollitia ipsum eum nulla
+      hic illo ut cumque voluptas pariatur ipsam, explicabo iusto error id rem
+      neque amet. Delectus doloremque ab velit nisi dolorem veniam!
+    </p>
+    <!--Google Map adding-->
+    <a href="https://youtu.be/KIC0OK9nKXY" target="_main"
+      >Google Map Tutorial</a
+    >
+    <br /><br />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.4062059082294!2d90.4229243113627!3d23.768545287989614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7892dcf0001%3A0x853ad729be4edc71!2sEast%20West%20University!5e0!3m2!1sen!2sbd!4v1672585204803!5m2!1sen!2sbd"
+      width="400"
+      height="300"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <br />
+    <br />
+    <!--download file-->
+    <a href="Tom Cruise.jpg" download>Download</a><br />
+    <a
+      href="https://play-lh.googleusercontent.com/6gpx0U7xAp2OBnW8EswCwC_xtUiP9FaZk-z0D2dRVcJiFv-bKBN_Ui4uecMwNmaD7a4"
+      >Dino</a
+    >
+  </body>
+</html>
